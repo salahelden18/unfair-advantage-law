@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree *)",
+      "Bash(find /Users/user/Documents/Development/unfair-advantage-law -type f ! -path '*/.git/*' ! -path '*/.claude/*' -exec file {} \\\\;)"
+    ]
+  }
+}
